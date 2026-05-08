@@ -40,14 +40,14 @@ export default function About({ onBook }: { onBook: () => void }) {
               </p>
               <p>
                 Inside you&apos;ll find the perfect blend of original character and modern
-                comfort — exposed stone walls, oak beams, and a wood burning stove sit
+                comfort, exposed stone walls, oak beams, and a wood burning stove sit
                 alongside a fully equipped contemporary kitchen, luxurious bedrooms, and
                 fast broadband. Whether you&apos;re seeking complete solitude or an active
                 adventure base, Glenmooar is your perfect retreat.
               </p>
               <p>
-                The Isle of Man&apos;s most dramatic landscapes — Snaefell Mountain, the
-                Sulby Reservoir, and miles of coastal paths — are all within easy reach,
+                The Isle of Man&apos;s most dramatic landscapes, Snaefell Mountain, the
+                Sulby Reservoir, and miles of coastal paths, are all within easy reach,
                 while the charming towns of Ramsey and Peel are just a short drive away.
               </p>
             </div>
@@ -77,9 +77,9 @@ export default function About({ onBook }: { onBook: () => void }) {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&auto=format&fit=crop&q=80"
+                src="/images/glenmooarcottageretreat_006.webp"
                 alt="Glenmooar Cottage exterior"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-right"
               />
             </div>
             {/* Floating badge */}

@@ -3,8 +3,8 @@ export default function BookingCTA({ onBook }: { onBook: () => void }) {
     <section className="relative py-32 overflow-hidden">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1920&auto=format&fit=crop&q=80"
-        alt="Isle of Man landscape"
+        src="/images/glenmooarcottageretreat_010.webp"
+        alt="Glenmooar Cottage"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-stone-900/70" />

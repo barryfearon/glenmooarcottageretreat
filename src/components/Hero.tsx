@@ -4,16 +4,16 @@ import { ChevronDown } from "lucide-react";
 
 const slides = [
   {
-    url: "https://images.unsplash.com/photo-1501854140801-50d01698950b?w=1920&auto=format&fit=crop&q=80",
-    alt: "Aerial view of Sulby Glen, Isle of Man",
+    url: "/images/glenmooarcottageretreat_010.webp",
+    alt: "Glenmooar Cottage",
   },
   {
-    url: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&auto=format&fit=crop&q=80",
-    alt: "Glenmooar Cottage exterior",
+    url: "/images/glenmooarcottageretreat_005.webp",
+    alt: "Glenmooar Cottage",
   },
   {
-    url: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920&auto=format&fit=crop&q=80",
-    alt: "Cosy cottage interior",
+    url: "/images/glenmooarcottageretreat_006.webp",
+    alt: "Glenmooar Cottage",
   },
 ];
 
