@@ -17,7 +17,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Glenmooar Cottage | Sulby Glen, Isle of Man",
   description:
-    "A beautiful traditional stone cottage nestled in the peaceful Sulby Glen, Isle of Man. Sleeps 6, dog friendly, woodburning stove. Book your Island escape today.",
+    "A beautiful traditional stone cottage nestled in the peaceful Sulby Glen, Isle of Man. Sleeps 6, dog friendly, woodburning stove. Book your escape today.",
   keywords: [
     "Isle of Man holiday cottage",
     "Sulby self-catering",
