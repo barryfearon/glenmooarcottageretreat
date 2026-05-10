@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Globe, Share2 } from "lucide-react";
+import { MapPin, Mail, Globe, Share2 } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
           loading="lazy"
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
-          title="Glenmooar Cottage location map"
+          title="Glen Mooar Cottage location map"
         />
       </div>
 
@@ -22,10 +22,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <p className="font-serif text-2xl font-bold mb-4">Glenmooar Cottage</p>
+            <p className="font-serif text-2xl font-bold mb-4">Glen Mooar Cottage</p>
             <p className="text-stone-400 text-sm leading-relaxed max-w-xs">
               A beautiful traditional stone cottage in Sulby Glen, Isle of Man.
-              The perfect retreat for families, couples, and nature lovers.
+              The perfect retreat for couples and nature lovers.
             </p>
             <div className="flex gap-4 mt-6">
               <a
@@ -54,27 +54,18 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-amber-400 shrink-0 mt-0.5" strokeWidth={1.5} />
                 <span className="text-stone-400 text-sm leading-snug">
-                  Glenmooar Cottage<br />
+                  Glen Mooar Cottage<br />
                   Sulby Glen, Sulby<br />
                   Isle of Man, IM7 2HR
                 </span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone size={16} className="text-amber-400 shrink-0" strokeWidth={1.5} />
-                <a
-                  href="tel:+441624898341"
-                  className="text-stone-400 hover:text-white text-sm transition-colors"
-                >
-                  +44 1624 898341
-                </a>
-              </li>
-              <li className="flex items-center gap-3">
                 <Mail size={16} className="text-amber-400 shrink-0" strokeWidth={1.5} />
                 <a
-                  href="mailto:info@glenmooarcottage.com"
+                  href="mailto:glenmooarcottageretreat@proton.me"
                   className="text-stone-400 hover:text-white text-sm transition-colors"
                 >
-                  info@glenmooarcottage.com
+                  glenmooarcottageretreat@proton.me
                 </a>
               </li>
             </ul>
@@ -114,7 +105,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-stone-500 text-xs">
-          <p>&copy; {new Date().getFullYear()} Glenmooar Cottage. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Glen Mooar Cottage. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Cookie Policy</a>

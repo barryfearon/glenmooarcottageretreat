@@ -33,17 +33,17 @@ export default function About({ onBook }: { onBook: () => void }) {
             </h2>
             <div className="space-y-4 text-stone-600 text-base leading-relaxed">
               <p>
-                Glenmooar Cottage is a beautifully restored 19th-century stone farmhouse
-                sitting quietly at the edge of the enchanting Sulby Glen. Surrounded by
-                ancient woodland, rolling hills, and the gentle sound of the Sulby River,
-                this is a place where time slows down.
+                Glen Mooar Cottage is a beautifully restored 18th-century stone cottage
+                built around 1750, sitting quietly at the edge of the enchanting Sulby Glen.
+                Surrounded by ancient woodland, rolling hills, and the gentle sound of the
+                Sulby River, this is a place where time slows down.
               </p>
               <p>
                 Inside you&apos;ll find the perfect blend of original character and modern
                 comfort, exposed stone walls, oak beams, and a wood burning stove sit
-                alongside a fully equipped contemporary kitchen, luxurious bedrooms, and
+                alongside a fully equipped contemporary kitchen, a comfortable bedroom, and
                 fast broadband. Whether you&apos;re seeking complete solitude or an active
-                adventure base, Glenmooar is your perfect retreat.
+                adventure base, Glen Mooar is your perfect retreat.
               </p>
               <p>
                 The Isle of Man&apos;s most dramatic landscapes, Snaefell Mountain, the
@@ -84,8 +84,8 @@ export default function About({ onBook }: { onBook: () => void }) {
             </div>
             {/* Floating badge */}
             <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-5">
-              <p className="font-serif text-2xl font-bold text-stone-900">19th C.</p>
-              <p className="text-stone-500 text-sm">Stone Farmhouse</p>
+              <p className="font-serif text-2xl font-bold text-stone-900">c.1750</p>
+              <p className="text-stone-500 text-sm">Stone Cottage</p>
             </div>
           </div>
         </div>

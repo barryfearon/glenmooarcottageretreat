@@ -5,15 +5,15 @@ import { ChevronDown } from "lucide-react";
 const slides = [
   {
     url: "/images/glenmooarcottageretreat_010.webp",
-    alt: "Glenmooar Cottage",
+    alt: "Glen Mooar Cottage",
   },
   {
     url: "/images/glenmooarcottageretreat_005.webp",
-    alt: "Glenmooar Cottage",
+    alt: "Glen Mooar Cottage",
   },
   {
     url: "/images/glenmooarcottageretreat_006.webp",
-    alt: "Glenmooar Cottage",
+    alt: "Glen Mooar Cottage",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function Hero({ onBook }: { onBook: () => void }) {
           Sulby Glen &nbsp;·&nbsp; Isle of Man
         </p>
         <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl font-bold mb-6 drop-shadow-md leading-tight">
-          Glenmooar Cottage
+          Glen Mooar Cottage
         </h1>
         <p className="text-white/90 text-lg sm:text-xl max-w-2xl leading-relaxed mb-10">
           A stunning traditional stone cottage nestled in the heart of Sulby Glen.

@@ -1,10 +1,9 @@
-import { Users, BedDouble, Bath, PawPrint, Car, Wifi } from "lucide-react";
+import { Users, BedDouble, Bath, Car, Wifi } from "lucide-react";
 
 const items = [
-  { icon: Users, label: "Guests", value: "Sleeps 6" },
-  { icon: BedDouble, label: "Bedrooms", value: "3 Beds" },
-  { icon: Bath, label: "Bathrooms", value: "2 Baths" },
-  { icon: PawPrint, label: "Pets", value: "Welcome" },
+  { icon: Users, label: "Guests", value: "Sleeps 2" },
+  { icon: BedDouble, label: "Bedrooms", value: "1 Bedroom" },
+  { icon: Bath, label: "Bathroom", value: "1 Bath" },
   { icon: Car, label: "Parking", value: "Free" },
   { icon: Wifi, label: "WiFi", value: "Included" },
 ];

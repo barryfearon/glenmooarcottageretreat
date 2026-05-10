@@ -4,7 +4,7 @@ export default function BookingCTA({ onBook }: { onBook: () => void }) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/images/glenmooarcottageretreat_010.webp"
-        alt="Glenmooar Cottage"
+        alt="Glen Mooar Cottage"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-stone-900/70" />

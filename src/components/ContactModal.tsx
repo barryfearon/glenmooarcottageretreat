@@ -9,6 +9,8 @@ interface Props {
 
 export default function ContactModal({ isOpen, onClose }: Props) {
   const [sent, setSent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -23,9 +25,26 @@ export default function ContactModal({ isOpen, onClose }: Props) {
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => setForm((f) => ({ ...f, [e.target.name]: e.target.value }));
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSent(true);
+    setSubmitting(true);
+    setError("");
+    try {
+      const res = await fetch("https://formspree.io/f/xzdokyqj", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setSent(true);
+      } else {
+        setError("Something went wrong. Please try emailing us directly.");
+      }
+    } catch {
+      setError("Something went wrong. Please try emailing us directly.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const handleClose = () => {
@@ -185,12 +204,17 @@ export default function ContactModal({ isOpen, onClose }: Props) {
               </div>
             </div>
 
+            {error && (
+              <p className="text-red-600 text-sm text-center">{error}</p>
+            )}
+
             <button
               type="submit"
-              className="mt-auto w-full bg-amber-600 hover:bg-amber-700 text-white py-4 rounded-xl font-semibold text-base transition-colors flex items-center justify-center gap-2"
+              disabled={submitting}
+              className="mt-auto w-full bg-amber-600 hover:bg-amber-700 disabled:opacity-60 text-white py-4 rounded-xl font-semibold text-base transition-colors flex items-center justify-center gap-2"
             >
               <Send size={18} />
-              Send Enquiry
+              {submitting ? "Sending…" : "Send Enquiry"}
             </button>
 
             <p className="text-center text-stone-400 text-xs">

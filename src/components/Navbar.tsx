@@ -35,7 +35,7 @@ export default function Navbar({ onBook }: { onBook: () => void }) {
               solid ? "text-stone-900" : "text-white"
             }`}
           >
-            Glenmooar Cottage
+            Glen Mooar Cottage
           </a>
 
           {/* Desktop links */}
