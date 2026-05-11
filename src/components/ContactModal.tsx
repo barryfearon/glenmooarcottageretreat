@@ -30,7 +30,7 @@ export default function ContactModal({ isOpen, onClose }: Props) {
     setSubmitting(true);
     setError("");
     try {
-      const res = await fetch("https://formspree.io/f/xzdokyqj", {
+      const res = await fetch("https://formspree.io/f/xlgzajgj", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
