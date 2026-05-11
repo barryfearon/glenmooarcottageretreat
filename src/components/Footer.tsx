@@ -56,7 +56,7 @@ export default function Footer() {
                 <span className="text-stone-400 text-sm leading-snug">
                   Glen Mooar Cottage<br />
                   Sulby Glen, Sulby<br />
-                  Isle of Man, IM7 2HR
+                  Isle of Man, IM7 2BE
                 </span>
               </li>
               <li className="flex items-center gap-3">

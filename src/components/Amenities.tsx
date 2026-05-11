@@ -7,10 +7,10 @@ import {
   Utensils,
   Wind,
   Leaf,
-  Zap,
   Package,
   BookOpen,
   Thermometer,
+  ShowerHead,
 } from "lucide-react";
 
 const amenities = [
@@ -20,9 +20,9 @@ const amenities = [
   { icon: Tv, label: "Smart TV" },
   { icon: Utensils, label: "Fully Equipped Kitchen" },
   { icon: WashingMachine, label: "Washing Machine" },
+  { icon: ShowerHead, label: "Shower" },
   { icon: Wind, label: "Hairdryer" },
   { icon: Leaf, label: "Private Garden" },
-  { icon: Zap, label: "BBQ" },
   { icon: Package, label: "Welcome Hamper" },
   { icon: BookOpen, label: "Books & Games" },
   { icon: Thermometer, label: "Central Heating" },
