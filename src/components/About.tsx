@@ -84,7 +84,7 @@ export default function About({ onBook }: { onBook: () => void }) {
             </div>
             {/* Floating badge */}
             <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl p-5">
-              <p className="font-serif text-2xl font-bold text-stone-900">c.1750</p>
+              <p className="font-serif text-2xl font-bold text-stone-900">c.18</p>
               <p className="text-stone-500 text-sm">Stone Cottage</p>
             </div>
           </div>
