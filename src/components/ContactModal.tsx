@@ -181,7 +181,7 @@ export default function ContactModal({ isOpen, onClose }: Props) {
                   onChange={handleChange}
                   className="w-full border border-stone-200 rounded-xl px-4 py-3 text-stone-900 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:border-transparent transition bg-white"
                 >
-                  {[1, 2, 3, 4, 5, 6].map((n) => (
+                  {[1, 2].map((n) => (
                     <option key={n} value={n}>
                       {n} Guest{n > 1 ? "s" : ""}
                     </option>
