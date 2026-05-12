@@ -78,7 +78,7 @@ export default function About({ onBook }: { onBook: () => void }) {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/glenmooarcottageretreat_006.webp"
-                alt="Glenmooar Cottage exterior"
+                alt="Stone exterior of Glen Mooar Cottage with private garden, Sulby Glen"
                 className="w-full h-full object-cover object-right"
               />
             </div>

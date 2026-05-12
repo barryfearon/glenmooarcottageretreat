@@ -5,15 +5,15 @@ import { ChevronDown } from "lucide-react";
 const slides = [
   {
     url: "/images/glenmooarcottageretreat_010.webp",
-    alt: "Glen Mooar Cottage",
+    alt: "Glen Mooar Cottage exterior surrounded by Sulby Glen woodland, Isle of Man",
   },
   {
     url: "/images/glenmooarcottageretreat_005.webp",
-    alt: "Glen Mooar Cottage",
+    alt: "Front of Glen Mooar Cottage with rolling Sulby Glen hills in the background",
   },
   {
     url: "/images/glenmooarcottageretreat_006.webp",
-    alt: "Glen Mooar Cottage",
+    alt: "Sulby River flowing past Glen Mooar Cottage in summer",
   },
 ];
 
@@ -26,7 +26,7 @@ export default function Hero({ onBook }: { onBook: () => void }) {
   }, []);
 
   return (
-    <section className="relative h-screen min-h-[640px] overflow-hidden">
+    <section className="relative h-screen min-h-160 overflow-hidden">
       {slides.map((slide, i) => (
         <div
           key={i}
@@ -39,12 +39,14 @@ export default function Hero({ onBook }: { onBook: () => void }) {
             src={slide.url}
             alt={slide.alt}
             className="w-full h-full object-cover"
+            loading={i === 0 ? "eager" : "lazy"}
+            fetchPriority={i === 0 ? "high" : "low"}
           />
         </div>
       ))}
 
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/25 to-black/65" />
+      <div className="absolute inset-0 bg-linear-to-b from-black/50 via-black/25 to-black/65" />
 
       {/* Content */}
       <div className="relative h-full flex flex-col items-center justify-center text-center text-white px-4">

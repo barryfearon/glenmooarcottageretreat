@@ -4,7 +4,7 @@ export default function BookingCTA({ onBook }: { onBook: () => void }) {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/images/glenmooarcottageretreat_010.webp"
-        alt="Glen Mooar Cottage"
+        alt="Aerial view of Glen Mooar Cottage and Sulby Glen countryside"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-stone-900/70" />
